@@ -31,6 +31,7 @@ endif ( WIN32 )
 
 include_directories( ${CMAKE_SOURCE_DIR} )
 link_directories( ${CMAKE_BINARY_DIR}/ )
+link_directories( ${CMAKE_SOURCE_DIR}/libs-vc100 )
 
 # Setup output directories
 set( LIBRARY_OUTPUT_PATH 

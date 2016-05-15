@@ -15,7 +15,9 @@ make
 
 ## Window
 
-Use cmake-gui to build Visual Studio project. (not work by now)
+Use cmake-gui to build Visual Studio project.
+You need to download and extract <http://whudoc.qiniudn.com/2016/bcp-standalone-extras-libs-vc100.7z>
+to `CMake_Source_Dir`.
 
 ---
 
