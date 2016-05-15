@@ -48,6 +48,12 @@ set( EXECUTABLE_OUTPUT_PATH
 
 add_subdirectory( libs )
 
+# set( Boost_USE_STATIC_LIBS ON )
+# set( Boost_USE_MULTITHREADED OFF )
+# set( Boost_USE_STATIC_RUNTIME OFF )
+# set( Boost_USE_DEBUG_RUNTIME OFF )
+# add_definitions(${Boost_LIB_DIAGNOSTIC_DEFINITIONS})
+
 file( GLOB SRCS *.c *.cpp *.cc *.h *.hpp )
 add_executable( ${PROJECT_NAME} ${SRCS} )
 target_link_libraries( ${PROJECT_NAME} MiniBoost )
