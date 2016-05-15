@@ -5,8 +5,8 @@ bcp via CMake.
 
 bcp binary release
 
-    +   windows: <http://whudoc.qiniudn.com/2016/bcp_standalone.exe> (562 KB)
-    +   linux: <http://whudoc.qiniudn.com/2016/bcp_standalone_linux> (917 KB)
+-   windows: <http://whudoc.qiniudn.com/2016/bcp_standalone.exe> (562 KB)
+-   linux: <http://whudoc.qiniudn.com/2016/bcp_standalone_linux> (917 KB)
 
 If you have BOOST configured, just cmake.
 
