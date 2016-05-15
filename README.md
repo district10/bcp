@@ -28,7 +28,7 @@ here's several simple steps to follow.
 
 bcp:
 
--   Windows: <http://whudoc.qiniudn.com/2016/bcp.exe> (565 KB)
+-   Windows: <http://whudoc.qiniudn.com/2016/bcp_standalone.exe> (561 KB)
 -   Linux: <http://whudoc.qiniudn.com/2016/bcp_standalone_linux> (2.28 MB)
 
 boost source:
