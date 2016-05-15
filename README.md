@@ -1,11 +1,16 @@
 bcp
 ===
 
-bcp via CMake. Tested on Win+VS2010(x64).
+bcp via CMake.
 
--   BOOST headers, libs: <http://whudoc.qiniudn.com/2016/boost_1_58_0-vs2010x64.7z> (99.7 MB)
--   bcp binary windows: <http://whudoc.qiniudn.com/2016/bcp_standalone.exe> (562 KB)
--   bcp binary linux: <http://whudoc.qiniudn.com/2016/bcp_standalone_linux> (917 KB)
+bcp binary release
+
+    +   windows: <http://whudoc.qiniudn.com/2016/bcp_standalone.exe> (562 KB)
+    +   linux: <http://whudoc.qiniudn.com/2016/bcp_standalone_linux> (917 KB)
+
+If you have BOOST configured, just cmake.
+
+If not, try [`standalone`](https://github.com/district10/bcp/tree/standalone) branch, it's really standalone.
 
 ## refs and see also
 
