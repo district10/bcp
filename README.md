@@ -16,8 +16,6 @@ make
 ## Window
 
 Use cmake-gui to build Visual Studio project.
-You need to download and extract <http://whudoc.qiniudn.com/2016/bcp-standalone-extras-libs-vc100.7z> (3.42 MB)
-to `CMake_Source_Dir`.
 
 ---
 
@@ -86,3 +84,10 @@ target_link_libraries( ${SOME_EXECUTABLE} MiniBoost )
 ```
 
 You can checkout [CMakeLists.txt](CMakeLists.txt) for a real example.
+
+**NOTICE:**
+
+Boost use [boost/config/auto_link.hpp](boost/config/auto_link.hpp) to autoload lib files,
+when you extracted the header and source files, you should comment out this file, so it will link you own lib file (in my case, `MiniBoost`).
+
+see commit [bcp/auto_link.hpp at 30525ab6554f94cc06cad18ee2931ab73caaa813 · district10/bcp](https://github.com/district10/bcp/blob/30525ab6554f94cc06cad18ee2931ab73caaa813/boost/config/auto_link.hpp).
